@@ -1,0 +1,1 @@
+$(".industry-list-selector").on("click",function(t){$type=$(this).data("industrytype"),$(".industry-list-selector").removeClass("active"),$(this).addClass("active"),$(".industry-text").removeClass("active"),$("#industry-text"+$type).addClass("active"),$(".img-industry").fadeOut(),$("#img-industry"+$type).fadeIn()});
